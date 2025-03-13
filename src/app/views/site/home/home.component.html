@@ -1,0 +1,267 @@
+<section class="main-banner" id="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 align-self-center">
+                <div class="header-text">
+                    <h6>Bienvenido a nuestra escuela</h6>
+                    <ng-container *ngIf="isBrowser">
+                        <ngx-typed-js [strings]="['Inglés', 'Robótica', 'Valenciano', 'Matemáticas']"
+                                      [loop]="true"
+                                      [backSpeed]="50"
+                                      [typeSpeed]="150">
+                          <h2>¡El mejor lugar para aprender<br><em class="typing"></em></h2>
+                        </ngx-typed-js>
+                      </ng-container>
+                      
+                    <div class="main-button-gradient">
+                        <div class="scroll-to-section"><a href="#contact-section">¡Únete ahora!</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="right-image">
+                    <img src="../../../../assets/images/banner-right-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ***** Área Principal del Banner Termina ***** -->
+
+<section class="services" id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h6>Nuestros Servicios</h6>
+                    <h4>Servicios <em>Ofrecidos</em></h4>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <div class="row">
+                                <div class="service-item item col-lg-6">
+                                    <div class="icon">
+                                        <img src="../../../../assets/images/service-icon-01.png" alt="">
+                                    </div>
+                                    <h4>Atención Personalizada</h4>
+                                    <p>Preparamos material en función de las necesidades del alumnado.</p>
+                                </div>
+                                <div class="service-item item col-lg-6">
+                                    <div class="icon">
+                                        <img src="../../../../assets/images/service-icon-02.png" alt="">
+                                    </div>
+                                    <h4>Grupos Reducidos</h4>
+                                    <p>Clases con máximo 5-6 alumnos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <div class="row">
+                                <div class="service-item item col-lg-6">
+                                    <div class="icon">
+                                        <img src="../../../../assets/images/service-icon-03.png" alt="">
+                                    </div>
+                                    <h4>Niveles</h4>
+                                    <p>Ofrecemos clases para primaria, secundaria y bachillerato.</p>
+                                </div>
+                                <div class="service-item item col-lg-6">
+                                    <div class="icon">
+                                        <img src="../../../../assets/images/service-icon-04.png" alt="">
+                                    </div>
+                                    <h4>Flexibilidad de Horarios</h4>
+                                    <p>Elige entre 1-2 días a la semana para tus clases.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Más items de servicios aquí -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-courses" id="courses">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="section-heading">
+                    <h6>NUESTROS CURSOS</h6>
+                    <h4>Lo Que Puedes <em>Aprender</em></h4>
+                    <p>Sumérgete en un mundo de aprendizaje en Wonder Learning Center, donde ofrecemos una amplia gama
+                        de clases para potenciar tu desarrollo académico.</p>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="naccs">
+                    <div class="row">
+                        <div class="col-lg-3 mt-4">
+                            <div class="menu flex-column nav-pills me-3" id="v-pills-tab" role="tablist">
+                                <div class="active" id="v-pills-curso1-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-curso1" type="button" role="tab"
+                                    aria-controls="v-pills-curso1" aria-selected="true"><span>Inglés</span>
+                                </div>
+                                <div id="v-pills-curso2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-curso2"
+                                    type="button" role="tab" aria-controls="v-pills-curso2" aria-selected="false">
+                                    <span>Robótica</span>
+                                </div>
+                                <div id="v-pills-curso3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-curso3"
+                                    type="button" role="tab" aria-controls="v-pills-curso3" aria-selected="false">
+                                    <span>Valenciano</span>
+                                </div>
+                                <div id="v-pills-curso4-tab" data-bs-toggle="pill" data-bs-target="#v-pills-curso4"
+                                    type="button" role="tab" aria-controls="v-pills-curso4" aria-selected="false">
+                                    <span>Refuerzo</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <ul class="nacc tab-content" id="v-pills-tabContent">
+                                <li class="active" id="v-pills-curso1" role="tabpanel"
+                                    aria-labelledby="v-pills-curso1-tab" tabindex="0">
+                                    <div>
+                                        <div class="left-image">
+                                            <img src="../../../../assets/images/courses-01.jpg" alt="">
+                                            <div class="price">
+                                                <h6>$128</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <h4>Inglés</h4>
+                                            <p>Desde la etapa infantil hasta primaria, empleamos una metodología
+                                                dinámica basada en estaciones de aprendizaje, inspirada en el método
+                                                Montessori, para enseñar idiomas de manera lúdica y efectiva. En
+                                                nuestras clases, los niños repasarán y ampliarán los contenidos
+                                                escolares mediante actividades divertidas como juegos, canciones,
+                                                manualidades y otras dinámicas interactivas.
+                                                <br><br>Además, ofrecemos cursos anuales de preparación de títulos
+                                                oficiales de inglés, como el B1 y el B2, que van desde octubre hasta
+                                                junio.
+                                            </p>
+                                            <span>Particulares</span>
+                                            <span>Grupal</span>
+                                            <span class="last-span">Certificados Oficiales</span>
+                                            <div class="text-button">
+                                                <a href="/side/contact">Suscribirse al Curso</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="v-pills-curso2" role="tabpanel" aria-labelledby="v-pills-curso2-tab"
+                                    tabindex="0">
+                                    <div>
+                                        <div class="left-image">
+                                            <img src="../../../../assets/images/courses-02.jpg" alt="">
+                                            <div class="price">
+                                                <h6>$156</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <h4>Robótica</h4>
+                                            <p>Nuestras clases son dinámicas e interactivas, utilizando herramientas
+                                                tecnológicas de última generación como ordenadores, tablets, robots como
+                                                Eleego Smart Robot y mBot de Makeblock, además de materiales como Legos,
+                                                kits de Arduino y Makey Makey.
+                                                <br><br>Los estudiantes explorarán Minecraft y Roblox, programarán en
+                                                Scratch y Python, y trabajarán en proyectos grupales e individuales para
+                                                fomentar la creatividad y el pensamiento crítico.
+                                            </p>
+                                            <span>Proyectos Grupales</span>
+                                            <span>Proyectos Individuales</span>
+                                            <div class="text-button">
+                                                <a href="/side/contact">Suscribirse al Curso</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="v-pills-curso3" role="tabpanel" aria-labelledby="v-pills-curso3-tab"
+                                    tabindex="0">
+                                    <div>
+                                        <div class="left-image">
+                                            <img src="../../../../assets/images/courses-03.jpg" alt="">
+                                            <div class="price">
+                                                <h6>$184</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <h4>Valenciano</h4>
+                                            <p>Impartimos cursos intensivos de duración flexible, de 1 a 3 meses, en
+                                                modalidad presencial y online, diseñados para la preparación de los
+                                                títulos oficiales de valenciano (C1 y C2) según las convocatorias de
+                                                JQCV, EOI y CIEACOVA.
+                                                <br><br>Estos cursos se adaptan cuidadosamente a los requisitos y
+                                                criterios
+                                                de evaluación de cada institución, asegurando una preparación efectiva y
+                                                exitosa para nuestros estudiantes.
+                                            </p>
+                                            <span>Duración Flexible</span>
+                                            <span>Grupal</span>
+                                            <span class="last-span">Certificados Oficiales</span>
+                                            <div class="text-button">
+                                                <a href="/side/contact">Suscribirse al Curso</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li id="v-pills-curso4" role="tabpanel" aria-labelledby="v-pills-curso4-tab"
+                                    tabindex="0">
+                                    <div>
+                                        <div class="left-image">
+                                            <img src="../../../../assets/images/courses-04.jpg" alt="">
+                                            <div class="price">
+                                                <h6>$76</h6>
+                                            </div>
+                                        </div>
+                                        <div class="right-content">
+                                            <h4>Refuerzo Integral</h4>
+                                            <p>Ofrecemos refuerzo escolar para estudiantes de primaria, secundaria y
+                                                bachillerato, con la flexibilidad de elegir entre 1, 2 o 3 días a la
+                                                semana, con sesiones de 1 hora de duración.
+                                                <br><br>
+                                                Grupos reducidos para garantizar una atención personalizada, con un
+                                                máximo de 5-6 estudiantes por clase. De esta manera, nos aseguramos de
+                                                proporcionar un apoyo efectivo y adaptado a las necesidades individuales
+                                                de cada alumno.
+                                            </p>
+                                            <span>Horario Flexible</span>
+                                            <span>1 Hora de Duración</span>
+                                            <div class="text-button">
+                                                <a href="/site/contact">Suscribirse al Curso</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="simple-cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 offset-lg-1">
+                <div class="left-image">
+                    <img src="../../../../assets/images/cta-left-image.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-5 align-self-center">
+                <h6>¡No te pierdas esta oportunidad!</h6>
+                <h4>¡Aprovecha ahora mismo hasta un 50% de DESCUENTO en la matrícula!</h4>
+                <p>Sumérgete en un mundo de posibilidades educativas, donde la excelencia y la innovación se encuentran.
+                    Únete a nuestra comunidad de aprendizaje hoy mismo y haz realidad tus metas académicas con nosotros.
+                </p>
+                <div class="white-button">
+                    <a href="/site/contact">Ver Cursos</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<app-footerhome></app-footerhome>
